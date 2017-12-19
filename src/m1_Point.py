@@ -55,7 +55,7 @@ class Point(object):
         self.yy = y
 
     def __repr__(self):
-        return 'Point(%s, %s)' %(self.x, self.y)
+        return "Point({}, {})".format(self.x, self.y)
 
     def clone(self):
         return Point(self.x, self.y)
@@ -1112,3 +1112,4 @@ def run_test_halfway_to():
 # Calls  main  to start the ball rolling.
 # ----------------------------------------------------------------------
 main()
+
